@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw; height: 100vh; overflow: hidden;
+}
+
+.homepage {
+  width: 100vw;
+  height: 100vh;
+}
+
+.d-flex { display: flex; }
+.f-wrap { flex-wrap: wrap; }
+.f-col { flex-direction: column; }
+.a-i-center { align-items: center; }
+.a-i-flexend { align-items: flex-end; }
+.a-i-flexstart { align-items: flex-start; }
+.a-i-stretch { align-items: stretch; }
+.a-i-baseline { align-items: baseline; }
+.j-c-center { justify-content: center; }
+.j-c-flexend { justify-content: flex-end; }
+.j-c-flexstart { justify-content: flex-start; }
+.j-c-between { justify-content: space-between; }
+.j-c-around { justify-content: space-around; }
+.j-c-evenly { justify-content: space-evenly; }
+
+.sp-1 { padding: var(--space-1) }
+.sp-2 { padding: var(--space-2) }
+.sp-3 { padding: var(--space-3) }
+.sp-4 { padding: var(--space-4) }
+.sp-5 { padding: var(--space-5) }
+.m-1 { margin: var(--space-1) }
+.m-2 { margin: var(--space-2) }
+.m-3 { margin: var(--space-3) }
+.m-4 { margin: var(--space-4) }
+.m-5 { margin: var(--space-5) }
+.w-1 { width: var(--width-1) }
+.w-2 { width: var(--width-2) }
+.w-3 { width: var(--width-3) }
+.w-4 { width: var(--width-4) }
+.w-5 { width: var(--width-5) }
+.h-1 { height: var(--height-1) }
+.h-2 { height: var(--height-2) }
+.h-3 { height: var(--height-3) }
+.h-4 { height: var(--height-4) }
+.h-5 { height: var(--height-5) }
+.w-f { width: 100%; }
+.h-f { height: 100%; }
+
+.bg-1 { background-color: var(--background-1) }
+.bg-2 { background-color: var(--background-2) }
+.bg-3 { background-color: var(--background-3) }
+.bg-4 { background-color: var(--background-4) }
+.bg-5 { background-color: var(--background-5) }
+
+.c-1 { color: var(--color-1) }
+.c-2 { color: var(--color-2) }
+.c-3 { color: var(--color-3) }
+.c-4 { color: var(--color-4) }
+.c-5 { color: var(--color-5) }
+
+.itsbutton {
+  padding: var(--space-1);
+  background: inherit;
+  outline: none;
+  border-radius: 0.14px;
+  border: none;
+  cursor: pointer;
+}
+
+.itsbutton:hover {
+  box-shadow: 0 0 0 0.14rem var(--background-5);
+}
+
+.itsbutton:focus-visible {
+  
+}
+
+.itsbutton:focus {
+  transform: scale(0.94);
+  box-shadow: 0 0 0 0.14rem var(--primary-5);
+  outline: 0;
+}
+
+.btnprmr { background: var(--primary-1); }
+.btnprmr:hover { background: var(--primary-2); box-shadow: none; }
+

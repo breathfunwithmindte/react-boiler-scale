@@ -1,0 +1,33 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: red;
+  --background-1: yellow;
+  --background-2: green;
+  --background-3: #FFF;
+  --background-5: rgba(0,0,0,0.14);
+  --color-1: #FFF;
+  --color-2: #000;
+  --space-1: 0.5rem 2.5rem;
+  --primary-1: rgb(43, 43, 156);
+  --primary-2: rgb(30, 30, 192);
+  --primary-5: rgba(0, 0, 255, 0.227);
+}

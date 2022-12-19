@@ -1,0 +1,24 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-layout {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-layout-in {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--background-2);
+}
+
+.main-layout-in main {
+  width: 100vw;
+  height: calc(100vh - var(--height-4));
+}
