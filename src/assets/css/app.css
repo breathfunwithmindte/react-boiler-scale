@@ -11,18 +11,13 @@
 }
 
 .main-layout-in {
-  height: calc(100vh - var(--height-4));
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: var(--background-2);
 }
-.main-layout-in aside {
-  height: 100%;
-  background-color: var(--background-1);
-  overflow: auto;
-}
+
 .main-layout-in main {
+  width: 100vw;
   height: calc(100vh - var(--height-4));
-  overflow: auto;
 }
